@@ -1,22 +1,18 @@
-import {useState } from "react"
+import {useState, useEffect} from "react"
 import BlogList from "./BlogList";
+import useFetch from "./useFetch";
 
 const Home = () => {
 
-    const [posts, setPosts] = useState([
-        {title:"101 sharks", body:"lorem ipsum...", author:"Sir Ian Mckellen", id:1},
-        {title:"Deep sea adventure", body:"lorem ipsum...", author:"Lord Voldemort", id:2},
-        {title:"Big monsters atack New York", body:"lorem ipsum...", author:"Fernando Pessoa", id:3},
-    ])
-
-    const handleDelete = (id) => {
-        const newPosts = posts.filter((post) => post.id != id)
-        setPosts(newPosts)
-    }
+    const { data:posts , isPending, error } = useFetch('http://localhost:8000/posts')
     
-    return (  
-        <BlogList posts={ posts } title="All posts" handleDelete={ handleDelete }/>
-    );
+    return (
+        <div className="home">
+            { error && <div style={{color:"red"}}>{ error }</div>}
+            {isPending && <h3>Loading...</h3>}
+            {posts && <BlogList posts={ posts } title="All posts" />}
+        </div>
+    )
 }
  
 export default Home;

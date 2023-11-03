@@ -1,0 +1,20 @@
+{
+    "posts":[
+        {
+            "title":"101 sharks", 
+            "body":"lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum...", 
+            "author":"Sir Ian Mckellen", 
+            "id":1
+        },
+        {
+            "title":"Deep sea adventure", 
+            "body":"lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum...", 
+            "author":"Lord Voldemort", "id":2
+        },
+        {
+            "title":"Big monsters atack New York", 
+            "body":"lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum...", 
+            "author":"Fernando Pessoa", "id":3
+        }
+    ]
+}
