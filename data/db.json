@@ -1,20 +1,16 @@
 {
-    "posts":[
-        {
-            "title":"101 sharks", 
-            "body":"lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum...", 
-            "author":"Sir Ian Mckellen", 
-            "id":1
-        },
-        {
-            "title":"Deep sea adventure", 
-            "body":"lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum...", 
-            "author":"Lord Voldemort", "id":2
-        },
-        {
-            "title":"Big monsters atack New York", 
-            "body":"lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum...", 
-            "author":"Fernando Pessoa", "id":3
-        }
-    ]
+  "posts": [
+    {
+      "title": "Deep sea adventure",
+      "body": "The ocean (also known as the sea or the world ocean) is a body of salt water that covers approximately 70.8% of the Earth and contains 97% of Earth's water.[9] The term ocean also refers to any of the large bodies of water into which the world ocean is conventionally divided.[10] Distinct names are used to identify five different areas of the ocean: Pacific (the largest), Atlantic, Indian, Antarctic/Southern, and Arctic (the smallest).[11][12] Seawater covers approximately 361,000,000 km2 (139,000,000 sq mi) of the planet. The ocean is the primary component of the Earth's hydrosphere, and thus essential to life on Earth. The ocean influences climate and weather patterns, the carbon cycle, and the water cycle by acting as a huge heat reservoir.",
+      "author": "Lord Voldemort",
+      "id": "2"
+    },
+    {
+      "title": "Big monsters atack New York",
+      "body": "As everyone begins heading towards work and school work NYC is busy as ever. Meanwhile the monster adapts to our environment by going to the sub-ocean depth and soon over adapts by going towards land it swims under the Hudson river and emerges on land on Lower Manhattan suddenly shocking New Yorker's who where there on the first scene of the monster emerging from the ocean. This monster is collasial beyond anything on scale of your average large animal the height is over 357 foot making large steps of destruction in its first steps towards land. Live TV news studios who were filming their daily news coverage would feel a large quake with shaking having the TV news studio trying to find out what the hell is going on. As the monster takes it first steps towards the city its already causing destruction claiming its first dozen victims along with its buildings.",
+      "author": "Fernando Pessoa",
+      "id": "3"
+    }
+  ]
 }

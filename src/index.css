@@ -14,6 +14,15 @@ header{
   align-items: center;
 }
 
+.content {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  border-left: 1px solid rgb(187, 187, 187);
+  border-right: 1px solid rgb(187, 187, 187);
+}
+
+/* Navbar */
 .navbar {
   padding: 20px;
   display: flex;
@@ -44,18 +53,15 @@ header{
   background: #f1356d;
 }
 
-.content {
-  max-width: 600px;
-  margin: 40px auto;
-  padding: 20px;
-  border-left: 1px solid rgb(187, 187, 187);
-  border-right: 1px solid rgb(187, 187, 187);
-}
-
+/* blog preview */
 .blog-preview{
   padding: 10px 16px;
   margin: 20px 0px;
   border-bottom: 2px solid #e1d4d4;
+}
+
+.blog-preview a{
+  text-decoration: none;
 }
 
 .blog-preview:hover{
@@ -66,4 +72,65 @@ header{
   font-size: 20px;
   color: #f1356d;
   margin-bottom: 20px;
+}
+
+/* blog details */
+
+.blog-details h2{
+  margin-bottom: 10px;
+  color: #f1356d;
+  font-size: 20px;
+}
+
+.blog-details div{
+  margin: 20px 0;
+}
+
+.blog-details button{
+  background: #f1356d;
+  color: #ffffff;
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 6px;
+  border: 2px solid rgb(60, 60, 60);
+}
+
+/* create new blog form */
+
+.create{
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.create label{
+  text-align: left;
+  display: block;
+}
+
+.create h2{
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 30px;
+}
+
+.create input, .create textarea, .create select{
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0px;
+  border: 1px solid #b5c0cc;
+  display: block;
+}
+
+.create button{
+  background: #f1356d;
+  color: #ffffff;
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 6px;
+  border: 2px solid rgb(60, 60, 60);
+}
+
+.create button:hover{
+  box-shadow: 1px 2px 3px rgb(96, 96, 96);
 }
